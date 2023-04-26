@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class graph {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class graph {
         int price = max + 5;
         int time = a.length+2;
        
-        Scanner s = new Scanner(System.in);
+        
        
         for (int i = price; i >= 0; i--) {
            int k =0;

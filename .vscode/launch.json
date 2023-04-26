@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "trapwaterapproch2",
+            "request": "launch",
+            "mainClass": "trapwaterapproch2",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
+            "name": "twicnumberinarray",
+            "request": "launch",
+            "mainClass": "twicnumberinarray",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
             "name": "sout",
             "request": "launch",
             "mainClass": "sout",
