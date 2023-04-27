@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "triplate",
+            "request": "launch",
+            "mainClass": "triplate",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
             "name": "trapwaterapproch2",
             "request": "launch",
             "mainClass": "trapwaterapproch2",
