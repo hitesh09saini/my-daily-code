@@ -1,10 +1,14 @@
+import java.util.Arrays;
+
 public class triplate {
     public static void name(int a[]) {
         int n = a.length;
         int r = 0, c = 0;
         int x=-1,y=-1,z=-1;
+        int h[]= new int[n];
         for (int i = 0; i < n; i++) {
             r = a[i];
+            
             for (int j = 1+i; j < n; j++) {
                 r += a[j];
                 for (int k = j+1; k < n; k++) {
@@ -14,6 +18,8 @@ public class triplate {
                       x=i;
                       y=j;
                       z=k;
+                     
+                      
                      System.out.print("["+a[x]+","+a[y]+","+a[z]+"] ");
                         c++;x--;y--;z--;
                         
@@ -32,11 +38,13 @@ public class triplate {
             
         }
         System.out.println("\n\nTriplate numbers : " + c);
-       
+       for(int i=0;i<n;i++){
+        System.out.print(h[i]+" ");
+       }
     }
 
     public static void main(String[] args) {
-        int a[] = { -1, 0, 1, 2, -1, -4 };
+        int a[] = {-1,2,-1,2};
         name(a);
     }
 }

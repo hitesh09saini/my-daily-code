@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countsorting",
+            "request": "launch",
+            "mainClass": "countsorting",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
+            "name": "rotateandfindkey",
+            "request": "launch",
+            "mainClass": "rotateandfindkey",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
             "name": "triplate",
             "request": "launch",
             "mainClass": "triplate",
