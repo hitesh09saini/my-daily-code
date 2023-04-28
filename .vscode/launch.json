@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pbubble",
+            "request": "launch",
+            "mainClass": "pbubble",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
             "name": "countsorting",
             "request": "launch",
             "mainClass": "countsorting",
