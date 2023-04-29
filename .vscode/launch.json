@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "gfg",
+            "request": "launch",
+            "mainClass": "gfg",
+            "projectName": "Java Programming_823bfb58"
+        },
+        {
+            "type": "java",
             "name": "pbubble",
             "request": "launch",
             "mainClass": "pbubble",
